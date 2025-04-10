@@ -5,65 +5,63 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  // Nombre de la aplicación (puedes modificarlo si gustas)
+  final String appName = 'Bienvenido, Luis';
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'LDSW - Actividad Widgets',
+      title: appName,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('LDSW - Actividad'),
-        ),
-        body: Center(
-          // Container para aplicar márgenes, padding y decoración
-          child: Container(
-            margin: EdgeInsets.all(16.0),
-            padding: EdgeInsets.all(16.0),
-            decoration: BoxDecoration(
-              color: Colors.blue[100],
-              borderRadius: BorderRadius.circular(8.0),
+        // Quitamos appBar si deseas pantalla completa. 
+        // Puedes dejarla si necesitas un título fijo en la parte superior.
+        body: Container(
+          // DECORACIÓN: imagen de fondo
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/fondo.jpg'), // Ajusta la ruta a tu imagen
+              fit: BoxFit.cover,
             ),
-            // Stack permite superponer widgets
-            child: Stack(
-              alignment: Alignment.center,
+          ),
+          // Este color semi-transparente se puede usar para oscurecer o aclarar la imagen
+          // decoration: BoxDecoration(
+          //   image: DecorationImage(
+          //     image: AssetImage('assets/fondo.jpg'),
+          //     fit: BoxFit.cover,
+          //     colorFilter: ColorFilter.mode(
+          //       Colors.black.withOpacity(0.3),
+          //       BlendMode.darken,
+          //     ),
+          //   ),
+          // ),
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                // Posicionamos un Text en la esquina superior derecha
-                Positioned(
-                  top: 10,
-                  right: 10,
-                  child: Text(
-                    'Texto en Stack',
-                    style: TextStyle(fontSize: 12, color: Colors.black54),
+                // Ícono de tu elección (puedes cambiar el icono, el tamaño y color)
+                Icon(
+                  Icons.android,
+                  size: 80.0,
+                  color: Colors.white,
+                ),
+                SizedBox(height: 20.0),
+                // Nombre de la aplicación
+                Text(
+                  appName,
+                  style: TextStyle(
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
                   ),
                 ),
-                // Column organiza los widgets de manera vertical
-                Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    // Widget Text principal
-                    Text(
-                      'Hello World',
-                      style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-                    ),
-                    SizedBox(height: 20),
-                    // Row organiza widgets horizontalmente
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: <Widget>[
-                        // Container 1 dentro de la Row
-                        Container(
-                          padding: EdgeInsets.all(8.0),
-                          color: Colors.red[200],
-                          child: Text('Contenedor 1'),
-                        ),
-                        // Container 2 dentro de la Row
-                        Container(
-                          padding: EdgeInsets.all(8.0),
-                          color: Colors.green[200],
-                          child: Text('Contenedor 2'),
-                        ),
-                      ],
-                    ),
-                  ],
+                SizedBox(height: 10.0),
+                // Mensaje principal
+                Text(
+                  'Movies Night',
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.white54,
+                  ),
                 ),
               ],
             ),
