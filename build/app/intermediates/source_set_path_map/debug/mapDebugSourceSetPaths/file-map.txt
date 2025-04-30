@@ -18,10 +18,10 @@ com.example.flutter_application_1.app-jetified-savedstate-1.2.1-16 C:\Users\ALIE
 com.example.flutter_application_1.app-core-1.13.1-17 C:\Users\ALIENWARE\.gradle\caches\8.10.2\transforms\dfc2fbca530748e569b0737b09fa016f\transformed\core-1.13.1\res
 com.example.flutter_application_1.app-jetified-core-ktx-1.13.1-18 C:\Users\ALIENWARE\.gradle\caches\8.10.2\transforms\e3f2b050ee295e3aa25c0b40346b22e9\transformed\jetified-core-ktx-1.13.1\res
 com.example.flutter_application_1.app-jetified-startup-runtime-1.1.1-19 C:\Users\ALIENWARE\.gradle\caches\8.10.2\transforms\ffafe5f631203f4924364ba072ee19e0\transformed\jetified-startup-runtime-1.1.1\res
-com.example.flutter_application_1.app-debug-20 C:\Users\ALIENWARE\OneDrive\Escritorio\mis_proyectos_flutter\flutter_application_1\android\app\src\debug\res
-com.example.flutter_application_1.app-main-21 C:\Users\ALIENWARE\OneDrive\Escritorio\mis_proyectos_flutter\flutter_application_1\android\app\src\main\res
-com.example.flutter_application_1.app-pngs-22 C:\Users\ALIENWARE\OneDrive\Escritorio\mis_proyectos_flutter\flutter_application_1\build\app\generated\res\pngs\debug
-com.example.flutter_application_1.app-resValues-23 C:\Users\ALIENWARE\OneDrive\Escritorio\mis_proyectos_flutter\flutter_application_1\build\app\generated\res\resValues\debug
-com.example.flutter_application_1.app-packageDebugResources-24 C:\Users\ALIENWARE\OneDrive\Escritorio\mis_proyectos_flutter\flutter_application_1\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.flutter_application_1.app-packageDebugResources-25 C:\Users\ALIENWARE\OneDrive\Escritorio\mis_proyectos_flutter\flutter_application_1\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.flutter_application_1.app-debug-26 C:\Users\ALIENWARE\OneDrive\Escritorio\mis_proyectos_flutter\flutter_application_1\build\app\intermediates\merged_res\debug\mergeDebugResources
+com.example.flutter_application_1.app-debug-20 C:\Users\ALIENWARE\OneDrive\Escritorio\flutter\flutter_application_1\android\app\src\debug\res
+com.example.flutter_application_1.app-main-21 C:\Users\ALIENWARE\OneDrive\Escritorio\flutter\flutter_application_1\android\app\src\main\res
+com.example.flutter_application_1.app-pngs-22 C:\Users\ALIENWARE\OneDrive\Escritorio\flutter\flutter_application_1\build\app\generated\res\pngs\debug
+com.example.flutter_application_1.app-resValues-23 C:\Users\ALIENWARE\OneDrive\Escritorio\flutter\flutter_application_1\build\app\generated\res\resValues\debug
+com.example.flutter_application_1.app-packageDebugResources-24 C:\Users\ALIENWARE\OneDrive\Escritorio\flutter\flutter_application_1\build\app\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.flutter_application_1.app-packageDebugResources-25 C:\Users\ALIENWARE\OneDrive\Escritorio\flutter\flutter_application_1\build\app\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.flutter_application_1.app-debug-26 C:\Users\ALIENWARE\OneDrive\Escritorio\flutter\flutter_application_1\build\app\intermediates\merged_res\debug\mergeDebugResources
