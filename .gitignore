@@ -1,0 +1,4 @@
+/build/
+/android/app/build/
+/firebase.json
+/lib/firebase_options.dart
